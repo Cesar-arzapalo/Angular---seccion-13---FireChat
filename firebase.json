@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "FireChat",
+      "public": "dist/FireChat",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
